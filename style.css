@@ -7,18 +7,26 @@
 
 /*startregion utility*/
 :root{
-    --back-header_section-white: #ffffff;
-    --back-button_simbols-lightblue: #0061ff;
-    --back-nav-heavenly: #b4d0e7;
-    --back-square1-lighgreen: #a2d39b;
-    --back-square1-bordeaux: #61082b;
-    --back-square1-lightblue: #0093ce;
-    --back-square1-lightred: #ff1c1c;
-    --back-square1-red: #d5001f;
-    --back-square1-heavenly: #b4d0e7;
-    --back-square1-blu: #0d2481;
-    --back-square1-yellow: #ffd830;
+    --bc-header_section-white: #ffffff;
+    --bc-button_simbols-lightblue: #0061ff;
+    --bc-nav-heavenly: #b4d0e7;
+    --bc-square1-lighgreen: #a2d39b;
+    --bc-square1-bordeaux: #61082b;
+    --bc-square1-lightblue: #0093ce;
+    --bc-square1-lightred: #ff1c1c;
+    --bc-square1-red: #d5001f;
+    --bc-square1-heavenly: #b4d0e7;
+    --bc-square1-blu: #0d2481;
+    --bc-square1-yellow: #ffd830;
 }
+
+
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 
 .ta-center{
     text-align: center;
@@ -28,9 +36,43 @@
     text-align: end;
 }
 
+
 .dis-flex{
     display: flex;
 }
+
+.jc-center{
+    justify-content: center;
+}
+
+.ai-center{
+    align-items: center;
+}
+
+.jc-flex-end{
+    justify-content: flex-end;
+}
+
+.jc-flex-start{
+    justify-content: flex-start;
+}
+
+.jc-space-around{
+    justify-content: space-around;
+}
+
+.jc-space-between{
+    justify-content: space-between;
+}
+
+.jc-space-evenly{
+    justify-content: space-evenly;
+}
+
+.fd-column{
+    flex-direction: column;
+}
+
 
 .pos-relative{
     position: relative;
@@ -40,33 +82,30 @@
     position: absolute;
 }
 
+
 .bor-none{
     border: none;
-}
-
-.clearfix{
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.fd-column{
-    flex-direction: column;
 }
 
 .br-7px{
     border-radius: 7px;
 }
 
+
 .mar-auto{
     margin: auto;
+}
+
+.mrl-20px{
+    margin:0 20px;
 }
 
 .ove-auto{
     overflow: auto;
 }
 
-.fs-xsmall{
+
+.fs-x-small{
     font-size: x-small;
 }
 
@@ -88,7 +127,25 @@
 /*endregion utility*/
 
 /*startregion header*/
+header{
+    height: 4rem;
+    background-color: var(--bc-header_section-white);
+}
+
+header>.col{
+    padding: 18px;
+}
+
+header button{
+    background-color: var(--bc-button_simbols-lightblue);
+    color: white;
+    padding: 6px 10px;
+}
+
 /*endregion header*/
+
+/*startregion nav*/
+/*endregion nav*/
 
 /*startregion main*/
 /*endregion main*/
