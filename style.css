@@ -2,20 +2,96 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
-
 /*startregion utility*/
-/*endregion utility*/
+:root{
+    --back-header_section-white: #ffffff;
+    --back-button_simbols-lightblue: #0061ff;
+    --back-nav-heavenly: #b4d0e7;
+    --back-square1-lighgreen: #a2d39b;
+    --back-square1-bordeaux: #61082b;
+    --back-square1-lightblue: #0093ce;
+    --back-square1-lightred: #ff1c1c;
+    --back-square1-red: #d5001f;
+    --back-square1-heavenly: #b4d0e7;
+    --back-square1-blu: #0d2481;
+    --back-square1-yellow: #ffd830;
+}
 
+.ta-center{
+    text-align: center;
+}
+
+.ta-end{
+    text-align: end;
+}
+
+.dis-flex{
+    display: flex;
+}
+
+.pos-relative{
+    position: relative;
+}
+
+.pos-absolute{
+    position: absolute;
+}
+
+.bor-none{
+    border: none;
+}
+
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.fd-column{
+    flex-direction: column;
+}
+
+.br-7px{
+    border-radius: 7px;
+}
+
+.mar-auto{
+    margin: auto;
+}
+
+.ove-auto{
+    overflow: auto;
+}
+
+.fs-xsmall{
+    font-size: x-small;
+}
+
+.fs-small{
+    font-size: small;
+}
+
+.fs-medium{
+    font-size: medium;
+}
+
+.fs-large{
+    font-size: large;
+}
+
+.fs-x-large{
+    font-size: x-large;
+}
+/*endregion utility*/
 
 /*startregion header*/
 /*endregion header*/
 
-
 /*startregion main*/
 /*endregion main*/
-
 
 /*startregion footer*/
 /*endregion footer*/
