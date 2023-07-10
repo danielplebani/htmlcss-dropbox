@@ -27,6 +27,9 @@
     clear: both;
 }
 
+.dis-inline-block{
+    display: inline-block;
+}
 
 .ta-center{
     text-align: center;
@@ -87,8 +90,8 @@
     border: none;
 }
 
-.br-7px{
-    border-radius: 7px;
+.br-50pc{
+    border-radius: 50%;
 }
 
 
@@ -100,13 +103,71 @@
     margin:0 20px;
 }
 
+.mrl-40px{
+    margin:0 40px;
+}
+
+.mr-40px{
+    margin-right: 40px;
+}
+
+.mr-5px{
+    margin-right: 5px;
+}
+
 .mtb-30px{
     margin: 30px 0;
+}
+
+.mtb-10px{
+    margin: 10px 0;
+}
+
+.mtb-20px{
+    margin: 20px 0;
 }
 
 .mb-60px{
     margin-bottom: 60px;
 }
+
+.mb-40px{
+    margin-bottom: 40px;
+}
+
+.mb-30px{
+    margin-bottom: 30px;
+}
+
+
+.pb-5px{
+    padding-bottom: 5px;
+}
+
+.ptb-10px{
+    padding: 10px 0;
+}
+
+.ptb-130px{
+    padding: 130px 0;
+}
+
+.ptb-20px{
+    padding: 20px 0;
+}
+
+.prl-20px{
+    padding: 0 20px;
+}
+
+.pt-20px{
+    padding-top: 20px;
+}
+
+.pb-10px{
+    padding-bottom: 10px;
+}
+
 
 
 .ove-auto{
@@ -134,12 +195,24 @@
     font-size: x-large;
 }
 
+.fs-30px{
+    font-size: 30px;
+}
+
 .wid-30pc{
     width: 30%;
 }
 
 .wid-70pc{
     width: 70%;
+}
+
+.wid-33pc{
+    width: 33.3%;
+}
+
+.wid-40px{
+    width: 40px;
 }
 /*endregion utility*/
 
@@ -169,6 +242,7 @@ header img{
 nav{
     height: 36rem;
     background-color: var(--bc-nav-heavenly);
+    margin-bottom: 130px;
 }
 
 nav>.conteiner{
@@ -199,6 +273,71 @@ nav i{
 /*endregion nav*/
 
 /*startregion main*/
+.plans{
+    height: 920px;
+    width: 50%;
+}
+
+.radio label{
+    cursor: pointer;
+}
+
+.price{
+    height: 760px;
+}
+
+.price>.col{
+    border: 1px solid rgba(128, 128, 128, 0.433);
+}
+
+.price .name, .team .name{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.433);
+}
+
+.functions i{
+    font-size: 11px;
+}
+
+.free-trial button, .team button{
+    background-color: var(--bc-button_simbols-lightblue);
+    color: white;
+    padding: 10px 20px;
+}
+
+#contattaci{
+    padding: 10px 62.2px;
+}
+
+.hr{
+    height: 1.5px;
+    background-color: rgba(128, 128, 128, 0.273);
+}
+
+.team{
+    border: 1px solid  rgba(128, 128, 128, 0.273);
+    width: 50%;
+    height: 190px;
+}
+
+.partner{
+    width: 50%;
+    height: 700px;
+}
+
+.img-partner>img{
+    width: 95%;
+}
+
+.partner-button{
+    background-color: var(--bc-header_section-white);
+    border: 2px solid grey;
+    padding:8px 10px;
+}
+
+.operations{
+    height: 1000px;
+    width: 50%;
+}
 /*endregion main*/
 
 /*startregion footer*/
