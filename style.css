@@ -160,6 +160,10 @@
     padding: 100px 0;
 }
 
+.pt-60px{
+    padding-top: 60px;
+}
+
 .prl-20px{
     padding: 0 20px;
 }
@@ -229,6 +233,10 @@
 
 .wid-50pc{
     width: 50%;
+}
+
+.wid-100div5{
+    width: calc(100% / 5);
 }
 
 .wid-33pc{
@@ -461,9 +469,17 @@ nav i{
 .faq{
     height: 540px;
 }
-
 /*endregion main*/
 
 /*startregion footer*/
+footer{
+    background-color: black;
+    color: white;
+    height: 500px;
+}
+
+footer span{
+    color: grey;
+}
 /*endregion footer*/
 
