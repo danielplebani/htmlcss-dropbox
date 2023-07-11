@@ -270,22 +270,27 @@
 .ar-1{
     aspect-ratio: 1;
 }
+
+.dis-none{
+    display: none;
+}
 /*endregion utility*/
 
 /*startregion header*/
 header{
     height: 4rem;
     background-color: var(--bc-header_section-white);
-}
-
-header>.col{
-    padding: 18px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    box-shadow: 0 1px 5px var(--bc-button_simbols-lightblue);
 }
 
 header button{
     background-color: var(--bc-button_simbols-lightblue);
     color: white;
     padding: 6px 10px;
+    transition-duration: 1s;
 }
 
 header img{
@@ -296,7 +301,7 @@ header img{
 
 /*startregion nav*/
 nav{
-    height: 36rem;
+    height: 40rem;
     background-color: var(--bc-nav-heavenly);
     margin-bottom: 130px;
 }
@@ -304,7 +309,7 @@ nav{
 nav>.conteiner{
     width: 60%;
     height: 100%;
-    padding-top: 4rem;
+    padding-top: 8rem;
 }
 
 nav h1{
@@ -321,6 +326,7 @@ nav button{
     background-color: var(--bc-button_simbols-lightblue);
     color: white;
     padding: 10px;
+    transition-duration: 1s;
 }
 
 nav i{
@@ -358,6 +364,7 @@ nav i{
     background-color: var(--bc-button_simbols-lightblue);
     color: white;
     padding: 10px 20px;
+    transition-duration: 1s;
 }
 
 #contattaci{
@@ -375,6 +382,10 @@ nav i{
     height: 190px;
 }
 
+.team button{
+    transition-duration: 1s;
+}
+
 .partner{
     width: 50%;
     height: 700px;
@@ -384,10 +395,11 @@ nav i{
     width: 95%;
 }
 
-.partner-button{
+.partner button{
     background-color: var(--bc-header_section-white);
     border: 2px solid grey;
     padding:8px 10px;
+    transition-duration: 1s;
 }
 
 .operations{
@@ -464,10 +476,28 @@ nav i{
     background-color: white;
     border: none;
     padding: 7px 20px;
+    transition-duration: 1s;
 }
 
 .faq{
     height: 540px;
+}
+
+.faq .faq-questions:hover>div{
+    transition-duration: 1s;
+}
+
+.faq .faq-questions>p{
+    display: none;
+    transition-duration: 1s;
+}
+
+.faq .faq-questions:hover .fa-arrow-down{
+    transition-duration: 1s;
+}
+
+.faq .faq-questions:hover .fa-arrow-up{
+    transition-duration: 1s;
 }
 /*endregion main*/
 
@@ -478,8 +508,11 @@ footer{
     height: 500px;
 }
 
-footer span{
+#language{
     color: grey;
 }
-/*endregion footer*/
 
+#footer-list span{
+    transition-duration: 1s;
+}
+/*endregion footer*/

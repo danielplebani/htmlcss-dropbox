@@ -21,17 +21,17 @@
 <body>
 
     <header class="dis-flex jc-space-between">
-        <div class="col dis-flex ai-center">
+        <div class="col dis-flex ai-center prl-20px">
             <img src="./img/logo-small.png" alt="logo">
-            <span class="mrl-20px fs-small">Perché Dropbox</span>
-            <span class="mrl-20px fs-small">Funzioni</span>
-            <span class="mrl-20px fs-small">Piani e Prezzi</span>
+            <span class="mrl-20px fs-small hei-100pc dis-flex ai-center jc-center">Perché Dropbox</span>
+            <span class="mrl-20px fs-small hei-100pc dis-flex ai-center jc-center">Funzioni</span>
+            <span class="mrl-20px fs-small hei-100pc dis-flex ai-center jc-center">Piani e Prezzi</span>
         </div>
 
-        <div class="col dis-flex ai-center">
-            <span class="mrl-20px fs-small">Supporto</span>
-            <span class="mrl-20px fs-small">Contatta l'ufficio vendite</span>
-            <span class="mrl-20px fs-small">Accedi</span>
+        <div class="col dis-flex ai-center prl-20px">
+            <span class="mrl-20px fs-small hei-100pc dis-flex ai-center jc-center">Supporto</span>
+            <span class="mrl-20px fs-small hei-100pc dis-flex ai-center jc-center">Contatta l'ufficio vendite</span>
+            <span class="mrl-20px fs-small hei-100pc dis-flex ai-center jc-center">Accedi</span>
             <button class="bor-none fs-small">Inizia</button>
         </div>
     </header>
@@ -52,7 +52,9 @@
 
                     <span class="fs-small mb-60px">Annulla in qualsiasi momento</span>
 
-                    <i class="fa-sharp fa-solid fa-arrow-down" style="color: #000000;"></i>
+                    <a href="#arrivo">
+                        <i class="fa-sharp fa-solid fa-arrow-down" style="color: #000000;"></i>
+                    </a>
                 </div>
                 <div class="col wid-70pc">
                     <img src="./img/jumbo.png" alt="jumbo">
@@ -63,7 +65,9 @@
     <!--nav-->
     
     <main>
-        <section class="plans mar-auto">
+        <section  class="plans mar-auto">
+            <a name="arrivo"></a>
+
             <h2 class="fs-30px"><strong>Trova il piano business che fa per te</strong></h2>
             <div class="radio mtb-30px">
                 <div class="dis-inline-block">
@@ -326,7 +330,7 @@
             </div>
         </section>
 
-        <section class="mar-auto partner ptb-130px dis-flex">
+        <section class="partner mar-auto  ptb-130px dis-flex">
 
             <div class="img-partner wid-70pc">
                 <img src="./img/partner.png" alt="partner">
@@ -337,7 +341,7 @@
                 <p class="fs-small mtb-20px">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit eius dolore laboriosam nam vitae dolorum rem! Eveniet deleniti iure dolores nulla distinctio voluptate hic labore suscipit nobis veniam. Doloribus, fugiat.
                 </p>
-                <button class="partner-button">Trova un partner</button>
+                <button>Trova un partner</button>
             </div>
         </section>
 
@@ -467,42 +471,54 @@
         </section>
 
         <section class="faq wid-50pc mar-auto dis-flex fd-column ptb-100px">
-            <h1 class="fs-30px mb-30px">Domande frequenti</h1>
-            <div>
-               <hr class="hr mtb-30px dis-flex">
-               <div class="fs-small dis-flex">
+            <h1 class="fs-30px mb-60px">Domande frequenti</h1>
+            <div class="faq-questions">
+               <hr class="hr mb-30px dis-flex">
+               <div class="fs-small dis-flex mb-30px">
                    <div class="wid-70pc">
                        <strong> Lorem ipsum dolor, sit amet consectetur    adipisicing elit.  Alias illo possimus </strong>
                    </div>
                    <div class="wid-30pc ta-end mr-40px">
                        <i class="fa-solid fa-arrow-down" style="color: #000000;"></i>
+                       <i class="fa-solid fa-arrow-up dis-none" style="color: #000000;"></i>
                    </div>
                </div>
+               <p class="fs-small mb-30px">
+                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla fugiat libero unde illum, 
+               </p>
             </div>
 
-            <div>
-                <hr class="hr mtb-30px dis-flex">
-                <div class="fs-small dis-flex">
+            <div class="faq-questions">
+                <hr class="hr mb-30px dis-flex">
+                <div class="fs-small dis-flex mb-30px">
                     <div class="wid-70pc">
                         <strong> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias illo possimus </strong>
                     </div>
                     <div class="wid-30pc ta-end mr-40px">
                         <i class="fa-solid fa-arrow-down" style="color: #000000;"></i>
+                       <i class="fa-solid fa-arrow-up dis-none" style="color: #000000;"></i>
                     </div>
                 </div>
+                <p class="fs-small mb-30px">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla fugiat libero unde illum, 
+                </p>
              </div>
 
-             <div>
-                <hr class="hr mtb-30px">
-                <div class="fs-small dis-flex">
+             <div class="faq-questions">
+                <hr class="hr mb-30px">
+                <div class="fs-small dis-flex mb-30px">
                     <div class="wid-70pc">
                         <strong> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias illo possimus </strong>
                     </div>
                     <div class="wid-30pc ta-end mr-40px">
                         <i class="fa-solid fa-arrow-down" style="color: #000000;"></i>
+                       <i class="fa-solid fa-arrow-up dis-none" style="color: #000000;"></i>
                     </div>
                 </div>
-                <hr class="hr mtb-30px">
+                <p class="fs-small mb-30px">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla fugiat libero unde illum, 
+                </p>
+                <hr class="hr mt-30px">
              </div>
         </section>
     </main>
@@ -510,54 +526,55 @@
 
     <footer class="pt-60px">
         <div class="row hei-100pc  wid-70pc mar-auto">
-            <div class="hei-50pc dis-flex">
+            <div id="footer-list" class="hei-50pc dis-flex">
                 <div class="col wid-100div5 dis-flex fd-column">
                     <h3 class="mb-30px">Dropbox</h3>
-                    <span class="mtb-10px fs-small">Lorem.</span>
-                    <span class="mtb-10px fs-small">ipsum dolor.</span>
-                    <span class="mtb-10px fs-small">Lorem, ipsum dolor.</span>
-                    <span class="mtb-10px fs-small">Lorem, ipsum dolor.</span>
-                    <span class="mtb-10px fs-small">Lorem,  dolor.</span>
+                    <div class="mtb-10px fs-small"><span>Lorem.</span></div>
+                    <div class="mtb-10px fs-small"><span>Lorem.</span></div>
+                    <div class="mtb-10px fs-small"><span>Lorem.</span></div>
+                    <div class="mtb-10px fs-small"><span>Lorem.</span></div>
+                    <div class="mtb-10px fs-small"><span>Lorem.</span></div>
                 </div>
 
                 <div class="col wid-100div5 dis-flex fd-column">
                     <h3 class="mb-30px">Prodotti</h3>
-                    <span class="mtb-10px fs-small">Lorem, ipsum dolor.</span>
-                    <span class="mtb-10px fs-small">, ipsum dolor.</span>
-                    <span class="mtb-10px fs-small">Lorem,  dolor.</span>
-                    <span class="mtb-10px fs-small">Lorem, ipsum dolor.</span>
-                    <span class="mtb-10px fs-small">Lorem,</span>
+                    <div class="mtb-10px fs-small"><span>Lorem.</span></div>
+                    <div class="mtb-10px fs-small"><span>Lorem.</span></div>
+                    <div class="mtb-10px fs-small"><span>Lorem.</span></div>
+                    <div class="mtb-10px fs-small"><span>Lorem.</span></div>
                 </div>
 
                 <div class="col wid-100div5 dis-flex fd-column">
                     <h3 class="mb-30px">Azienda</h3>
-                    <span class="mtb-10px fs-small">Lorem, ipsum dolor.</span>
-                    <span class="mtb-10px fs-small">Lorem, ipsum dolor.</span>
-                    <span class="mtb-10px fs-small">Lorem, ipsum dolor.</span>
-                    <span class="mtb-10px fs-small">Lorem, ipsum dolor.</span>
-                    <span class="mtb-10px fs-small">Lorem, ipsum dolor.</span>
+                    <div class="mtb-10px fs-small"><span>Lorem.</span></div>
+                    <div class="mtb-10px fs-small"><span>Lorem.</span></div>
+                    <div class="mtb-10px fs-small"><span>Lorem.</span></div>
+                    <div class="mtb-10px fs-small"><span>Lorem.</span></div>
+                    <div class="mtb-10px fs-small"><span>Lorem.</span></div>
+                    <div class="mtb-10px fs-small"><span>Lorem.</span></div>
+                    <div class="mtb-10px fs-small"><span>Lorem.</span></div>
+                    
                 </div>
 
                 <div class="col wid-100div5 dis-flex fd-column">
                     <h3 class="mb-30px">Supporto</h3>
-                    <span class="mtb-10px fs-small">Lorem, ipsum .</span>
-                    <span class="mtb-10px fs-small">Lore.</span>
-                    <span class="mtb-10px fs-small">Lorem, ipsum .</span>
-                    <span class="mtb-10px fs-small">Lorem,  dolor.</span>
-                    <span class="mtb-10px fs-small">ipsum dolor.</span>
+                    <div class="mtb-10px fs-small"><span>Lorem.</span></div>
+                    <div class="mtb-10px fs-small"><span>Lorem.</span></div>
+                    <div class="mtb-10px fs-small"><span>Lorem.</span></div>
                 </div>
 
                 <div class="col wid-100div5 dis-flex fd-column">
                     <h3 class="mb-30px">Comunity</h3>
-                    <span class="mtb-10px fs-small">Lorem,  dolor.</span>
-                    <span class="mtb-10px fs-small">Lorem, ipsum .</span>
-                    <span class="mtb-10px fs-small">Lorem,</span>
-                    <span class="mtb-10px fs-small">Lorem, ipsum dolor.</span>
-                    <span class="mtb-10px fs-small">, ipsum dolor.</span>
+                    <div class="mtb-10px fs-small"><span>Lorem.</span></div>
+                    <div class="mtb-10px fs-small"><span>Lorem.</span></div>
+                    <div class="mtb-10px fs-small"><span>Lorem.</span></div>
+                    <div class="mtb-10px fs-small"><span>Lorem.</span></div>
+                    <div class="mtb-10px fs-small"><span>Lorem.</span></div>
+                    <div class="mtb-10px fs-small"><span>Lorem.</span></div>
                 </div>
             </div>
     
-            <div class="hei-50pc pt-130px">
+            <div id="language" class="hei-50pc pt-130px">
                 <hr class="hr wid-40px mb-30px"></hr>
                 <span>
                     <i class="fa-solid fa-earth-americas fs-small" style="color: #8b8f98;"></i>

@@ -1,0 +1,43 @@
+header span:hover{
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+
+header button:hover, nav button:hover, .free-trial button:hover, .team button:hover{
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.partner button:hover, .free-trial-business button:hover{
+    color: aliceblue;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#footer-list span:hover{
+    border-bottom: 1px solid white;
+    cursor: pointer;
+}
+
+.faq .faq-questions:hover>div{
+    height: 60px;
+    margin-bottom:0;
+}
+
+.faq .faq-questions:hover>p{
+    display: block;
+    color: black;
+}
+
+.faq .faq-questions:hover .fa-arrow-down{
+    display: none;
+}
+
+.faq .faq-questions:hover .fa-arrow-up{
+    display: block;
+}
