@@ -483,22 +483,15 @@ nav i{
     height: 540px;
 }
 
-.faq .faq-questions:hover>div{
+.faq-questions>div{
     transition-duration: 1s;
 }
 
-.faq .faq-questions>p{
+.faq-questions>p{
     display: none;
     transition-duration: 1s;
 }
 
-.faq .faq-questions:hover .fa-arrow-down{
-    transition-duration: 1s;
-}
-
-.faq .faq-questions:hover .fa-arrow-up{
-    transition-duration: 1s;
-}
 /*endregion main*/
 
 /*startregion footer*/
