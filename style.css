@@ -263,6 +263,14 @@
     height: 100%;
 }
 
+.hei-20pc{
+    height: 20%;
+}
+
+.hei-80pc{
+    height: 80%;
+}
+
 .fw-wrap{
     flex-wrap: wrap;
 }
