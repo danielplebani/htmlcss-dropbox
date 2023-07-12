@@ -4,7 +4,19 @@
     box-sizing: border-box;
 }
 
-:root{}
+:root{
+    --bc-header_section-white: #ffffff;
+    --bc-button_simbols-lightblue: #0061ff;
+    --bc-nav-heavenly: #b4d0e7;
+    --bc-square1-lighgreen: #a2d39b;
+    --bc-square1-bordeaux: #61082b;
+    --bc-square1-lightblue: #0093ce;
+    --bc-square1-lightred: #ff1c1c;
+    --bc-square1-red: #d5001f;
+    --bc-square1-heavenly: #b4d0e7;
+    --bc-square1-blu: #0d2481;
+    --bc-square1-yellow: #ffd830;
+}
 
 /*startregion utility*/
 .clearfix::after{
