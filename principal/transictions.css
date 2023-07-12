@@ -41,3 +41,11 @@ header button:hover, nav button:hover, .free-trial button:hover, .team button:ho
 .faq .faq-questions:hover .fa-arrow-up{
     display: block;
 }
+
+.price>.col:hover{
+    box-shadow: 5px 5px 5px black;
+}
+
+.team:hover{
+    box-shadow: 5px 5px 5px black;
+}

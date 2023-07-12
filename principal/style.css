@@ -350,6 +350,7 @@ nav i{
 
 .price>.col{
     border: 1px solid rgba(128, 128, 128, 0.433);
+    transition-duration: 1s;
 }
 
 .price .name, .team .name{
@@ -358,6 +359,10 @@ nav i{
 
 .functions i{
     font-size: 11px;
+}
+
+.team{
+    transition-duration: 1s;
 }
 
 .free-trial button, .team button{
@@ -410,7 +415,6 @@ nav i{
 .operations .row{
     height: 850px;
 }
-
 
 .member>.card , .member>.col{
     height: 100%;
