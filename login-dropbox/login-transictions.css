@@ -1,0 +1,29 @@
+header span:hover, header i:hover{
+    background-color: rgb(210, 250, 255);
+    cursor: pointer;
+}
+
+header img:hover, header h2:hover{
+    cursor: pointer;
+}
+
+#footer-list span:hover{
+    border-bottom: 1px solid white;
+    cursor: pointer;
+}
+
+main .button:hover{
+    box-shadow: 0 0 5px blue;
+}
+
+main input:hover{
+    cursor: text;
+}
+
+main .continue:hover{
+    background-color: aliceblue;
+    color: blue;
+    border-radius: 10px;
+    border: 1px solid blue;
+    box-shadow: 0 0 5px blue;
+}

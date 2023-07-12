@@ -39,6 +39,9 @@
     text-align: end;
 }
 
+.td-none{
+    text-decoration: none;
+}
 
 .dis-flex{
     display: flex;
@@ -191,8 +194,6 @@
 .pad-10px{
     padding: 10px;
 }
-
-
 
 .ove-auto{
     overflow: auto;
